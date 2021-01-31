@@ -1,0 +1,100 @@
+body,
+.quote-input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ac {
+    font-family: cursive;
+}
+
+.container {
+    background-color: #f4b6ff;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 100%;
+    max-width: 96%;
+}
+
+.quote-display {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+}
+
+.quote-input {
+    background-color: transparent;
+    border: 2px solid #f4b6ff;
+    outline: none;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
+    resize: none;
+    font-size: 20px;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+.quote-input:focus {
+    border-color: black;
+}
+
+.correct {
+    color: green;
+}
+
+.timer {
+    color: green;
+}
+
+.temp {
+    font-family: 'Cinzel', serif;
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1abc9c;
+}
+
+.footer p {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #fff;
+}

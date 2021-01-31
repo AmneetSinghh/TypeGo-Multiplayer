@@ -1,0 +1,54 @@
+<%- include("partials/header"); -%>
+    <script type="module" src="/game.js"></script>
+    <nav class="navbar navbar-light " style="font-size: 20px; font-family: sans-serif; background-color: whitesmoke; text-align: left;">
+        <p style="font-family: 'Kaushan Script', cursive; padding:0px; margin: 0%;"> Type Go ❤</p>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6" style="background-color:lavender;">
+                <div id="mynetwork">
+
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6" style="background-color:lavenderblush;">
+
+
+
+
+
+                <h1 class="temp"><span id="camp">One Shot </span> ❤&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="Timer">0</span></h1>
+                <hr>
+                <div class="quote-display" id="quoteDisplay"></div>
+                <textarea id="quoteInput" class="quote-input" autofocus onkeydown="func(event)"></textarea>
+                <hr>
+                <div class="container mt-3">
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <hr>
+
+                            <p class="ac">Accuracy❤:<span id="Accuracy">0</span></p>
+                            <p class="ac">WPM❤: <span id="WPM">0</span></p>
+                            <p class="ac">CPM❤: <span id="CPM">0</span></p>
+                            <hr>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <br>
+    <nav class="navbar navbar-light " style="font-size: 20px; font-family: sans-serif; background-color: whitesmoke; text-align: left;">
+        <p style="font-family: 'Kaushan Script', cursive; padding:0px; margin: 0%;"> Made by ❤Harry Singh</p>
+    </nav>
+    <%- include("partials/footer"); -%>
